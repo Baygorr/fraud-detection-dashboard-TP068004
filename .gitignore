@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Large files that should use Git LFS (uncomment if needed)
+# *.npy
+
+# Keep these files (don't ignore)
+# !data/*.csv
+# !models/*.pkl
+# !models/*.joblib
+
+# Large data files (regenerate with setup_dashboard.py)
+data/contract_risk_patterns.csv
+data/contract_risk_predictions.csv
+data/agent_embeddings.csv
